@@ -102,6 +102,7 @@ def sortnumber2():
 	lst_nums  = []
 	array_str = ""
 	for i in lst:
+		
 		if i.isdigit():
 			lst_nums.append(int(i))
 		if i[0] == "-" and i[1::].isdigit():
@@ -114,3 +115,4 @@ def sortnumber2():
 	document.getElementById("sorted").innerHTML = array_str
 
 
+## test
